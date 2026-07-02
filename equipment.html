@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thiết bị cho thuê | ZIT Event</title>
+    <meta name="description" content="Danh sách thiết bị cho thuê sự kiện của ZIT Event, bao gồm âm thanh, ánh sáng, LED, máy chiếu, sân khấu và nhiều thiết bị khác." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="assets/images/zit-network-logo.svg" alt="ZIT Network logo" class="logo-img" /></a>
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Trang chủ</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">Giới thiệu</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Dịch vụ</a></li>
+            <li class="nav-item"><a class="nav-link active" href="equipment.html">Thiết bị cho thuê</a></li>
+            <li class="nav-item"><a class="nav-link" href="pricing.html">Bảng giá</a></li>
+            <li class="nav-item"><a class="nav-link" href="projects.html">Dự án</a></li>
+            <li class="nav-item"><a class="nav-link" href="news.html">Tin tức</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Liên hệ</a></li>
+          </ul>
+          <a class="btn btn-custom btn-primary-custom ms-lg-3 mt-3 mt-lg-0" href="contact.html">Nhận báo giá</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-8" data-aos="fade-right">
+              <p class="text-primary-custom fw-semibold mb-2">Thiết bị cho thuê</p>
+              <h1 class="display-5 fw-bold">Danh mục thiết bị sự kiện đa dạng và hiện đại</h1>
+              <p class="lead text-white-50">Tìm thiết bị phù hợp cho sự kiện của bạn với hệ thống tìm kiếm và lọc danh mục nhanh chóng.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="row g-3 align-items-end mb-4" data-aos="fade-up">
+            <div class="col-lg-6">
+              <label class="form-label fw-semibold" for="equipment-search">Tìm kiếm thiết bị</label>
+              <input class="form-control" id="equipment-search" type="text" placeholder="Nhập tên thiết bị..." />
+            </div>
+            <div class="col-lg-6">
+              <label class="form-label fw-semibold" for="category-filter">Lọc theo danh mục</label>
+              <select class="form-select" id="category-filter">
+                <option value="">Tất cả</option>
+                <option value="am-thanh">Âm thanh</option>
+                <option value="anh-sang">Ánh sáng</option>
+                <option value="led">Màn hình LED</option>
+                <option value="may-chieu">Máy chiếu</option>
+                <option value="san-khau">Sân khấu</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="alert alert-light border d-none" id="equipment-empty">Không tìm thấy thiết bị phù hợp.</div>
+
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6 equipment-card" data-name="hệ thống âm thanh" data-category="am-thanh" data-aos="fade-up">
+              <div class="card h-100 border-0 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=900&q=80&fm=webp" alt="Hệ thống âm thanh" loading="lazy" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Hệ thống âm thanh</h5>
+                  <p class="equipment-meta">Danh mục: Âm thanh / ngày</p>
+                  <p class="card-text">Loa, mixer, micro không dây và bộ xử lý âm thanh cho sự kiện quy mô lớn.</p>
+                  <a class="btn btn-custom btn-dark-custom" href="contact.html">Liên hệ thuê</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 equipment-card" data-name="màn hình led" data-category="led" data-aos="fade-up" data-aos-delay="100">
+              <div class="card h-100 border-0 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80&fm=webp" alt="Màn hình LED" loading="lazy" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Màn hình LED</h5>
+                  <p class="equipment-meta">Danh mục: Màn hình LED / ngày</p>
+                  <p class="card-text">Độ sáng cao, hình ảnh sắc nét và phù hợp phòng họp, sân khấu và backdrop.</p>
+                  <a class="btn btn-custom btn-dark-custom" href="contact.html">Liên hệ thuê</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 equipment-card" data-name="máy chiếu" data-category="may-chieu" data-aos="fade-up" data-aos-delay="200">
+              <div class="card h-100 border-0 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80&fm=webp" alt="Máy chiếu" loading="lazy" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Máy chiếu</h5>
+                  <p class="equipment-meta">Danh mục: Máy chiếu / ngày</p>
+                  <p class="card-text">Màn hình lớn, độ phân giải cao và dễ vận hành cho hội nghị và trình chiếu.</p>
+                  <a class="btn btn-custom btn-dark-custom" href="contact.html">Liên hệ thuê</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <h5>ZIT Event</h5>
+            <p>Đơn vị chuyên tổ chức sự kiện, cho thuê thiết bị và triển khai giải pháp chuyên nghiệp cho doanh nghiệp.</p>
+          </div>
+          <div class="col-lg-2 col-sm-6">
+            <h5>Liên kết nhanh</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Trang chủ</a></li>
+              <li><a href="about.html">Giới thiệu</a></li>
+              <li><a href="services.html">Dịch vụ</a></li>
+              <li><a href="equipment.html">Thiết bị</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-6">
+            <h5>Chính sách</h5>
+            <ul class="list-unstyled">
+              <li><a href="contact.html">Liên hệ</a></li>
+              <li><a href="pricing.html">Bảng giá</a></li>
+              <li><a href="projects.html">Dự án</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h5>Thông tin liên hệ</h5>
+            <ul class="list-unstyled">
+              <li><i class="fa-solid fa-phone me-2"></i>0986 416 678</li>
+              <li><i class="fa-solid fa-envelope me-2"></i>huuvinhit98@gmail.com</li>
+              <li><i class="fa-solid fa-location-dot me-2"></i>142 Trần Văn Khê, Phường Gia Định, TP. HCM</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom text-center">
+          <p class="mb-0">© <span id="year"></span> ZIT Event. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Quay lên đầu trang"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

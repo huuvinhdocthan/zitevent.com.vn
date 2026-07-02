@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" role="img" aria-labelledby="zitNetworkTitle" preserveAspectRatio="xMinYMid meet">
+  <title id="zitNetworkTitle">ZIT Network logo</title>
+  <defs>
+    <linearGradient id="ZITGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0C6AC2" />
+      <stop offset="60%" stop-color="#1AB16B" />
+      <stop offset="100%" stop-color="#1EB67B" />
+    </linearGradient>
+  </defs>
+  <text x="0" y="55" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800" fill="url(#ZITGradient)">ZIT</text>
+  <text x="0" y="90" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4" fill="#0C6AC2">NETWORK</text>
+</svg>
